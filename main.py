@@ -6,7 +6,7 @@ col1,col2,col3 = st.columns(3)
 with col1:
 	st.title("tareas 4º año D")
 
-file_path = r"C:\Users\user\Desktop\paguina_web_4añod\trabajo escolar (1).pdf"
+file_path = r"trabajo escolar (1).pdf"
 with col1:
 	download_setup = st.download_button("Download", open(file_path, "rb"), file_name="trabajo escolar.pdf")
 
